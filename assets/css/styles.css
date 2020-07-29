@@ -15,7 +15,7 @@
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Baloo 2', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -59,8 +59,12 @@ body{
   font-size: var(--normal-font-size);
   color: var(--second-color);
 }
-h1,h2,p{
-  margin: 0;
+h1{
+  margin: 0;  
+  line-height: 75px;
+}
+h2,p{
+  margin: 0;  
 }
 ul{
   margin: 0;
@@ -161,9 +165,7 @@ img{
   background-color: var(--first-color);
   border-radius: 40px;
 }
-.nav__logo{
-  color: var(--second-color);
-}
+
 .nav__toggle{
   color: var(--second-color);
   font-size: 1.5rem;
@@ -232,7 +234,8 @@ img{
   border-radius: 30px;
 }
 .button:hover{
-  color: #fff;
+  background-color: var(--second-color);
+  color: var(--first-color);
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
@@ -322,9 +325,8 @@ img{
   cursor: pointer;
 }
 .work__img img:hover{
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
-
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
@@ -454,4 +456,9 @@ color: #fff;
   .home__img{
     right: 10%;
   }
+}
+
+.nav__logo{
+  width: auto;
+  height: auto;
 }
