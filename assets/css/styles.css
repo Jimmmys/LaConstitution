@@ -241,7 +241,7 @@ img{
 
 /* ===== ABOUT =====*/
 .about__container{
-  row-gap: 44rem;
+  row-gap: 1rem;
   text-align: center;
 }
 .about__subtitle{
