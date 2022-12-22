@@ -247,13 +247,6 @@ img{
 .about__subtitle{
   margin-bottom: var(--mb-1);
 }
-.about__img{
-  justify-self: center;
-}
-.about__img img{
-  width: 200px;
-  border-radius: 10px;
-}
 
 /* ===== SKILLS =====*/
 .skills__container{
