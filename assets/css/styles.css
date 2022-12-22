@@ -241,11 +241,11 @@ img{
 
 /* ===== ABOUT =====*/
 .about__container{
-  row-gap: 1rem;
+  row-gap: 0rem;
   text-align: center;
 }
 .about__subtitle{
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 .about__img{
   justify-self: center;
